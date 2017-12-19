@@ -1,0 +1,7 @@
+This is a shmup where your bullets are fired back at you by mirrored versions of yourself.
+
+I owe a lot (including code) to Dave Thompson and his game lisparuga, which you can find at https://davexunit.itch.io/lisparuga
+
+To run the game, first install Guile and the latest version of the Sly game engine (https://git.dthompson.us/sly.git), then run "./nemesis.scm" from the command line. The script assumes that Sly is in the path and Guile is located at /usr/bin/guile. If you don't want to change the script or it isn't executable for some reason, then you can run "guile nemesis.scm" to run the game directly in the interpreter.
+
+NOTE: This is still really very early in development. I plan on expanding the game to become something that's actually worth playing. Think of it as a demo for now.
